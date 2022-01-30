@@ -61,7 +61,9 @@ export const Navbar: React.FC = () => {
             </a>
           </li>
           <li>
-            <a href="">Resume</a>
+            <a href="" className={styles.button}>
+              Resume
+            </a>
           </li>
         </ul>
       </nav>

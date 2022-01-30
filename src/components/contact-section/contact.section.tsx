@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from '../elements/button/button';
 import styles from './contact.section.module.css';
 
 export const ContactSection: React.FC = () => {
@@ -10,7 +11,7 @@ export const ContactSection: React.FC = () => {
         learning from communities and expanding my contact list
       </p>
       <p>
-        <a href="" className="button">
+        <a href="" className={styles.button}>
           Email me
         </a>
       </p>

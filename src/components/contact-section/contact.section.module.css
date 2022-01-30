@@ -14,3 +14,17 @@
 .contact:last-child {
   padding-top: 3rem;
 }
+
+.button {
+  font-family: var(--mono);
+  background-color: var(--hot-pink);
+  color: var(--white);
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: var(--white);
+  background-color: var(--orange);
+}
