@@ -29,7 +29,7 @@ export const Navbar: React.FC = () => {
             </Link>
           </li>
           <li>
-            <Link href="#projects">
+            <Link href="/#projects">
               <a
                 className={router.asPath === '/#projects' ? styles.active : ''}
               >
