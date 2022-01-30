@@ -1,0 +1,33 @@
+.footer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.footer > * {
+  max-width: var(--max-width);
+}
+
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.icon {
+  font-size: 150%;
+  display: block;
+}
+
+.footer p {
+  margin: 0;
+}

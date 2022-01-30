@@ -25,13 +25,17 @@ export const Navbar: React.FC = () => {
           <a href="">About</a>
         </li>
         <li>
-          <a href="">
+          <a href="" target="_blank" rel="noreferrer">
             <FaLinkedin aria-hidden="true" className={styles.icon} />
             <span className="sr-only">Linkedin</span>
           </a>
         </li>
         <li>
-          <a href="">
+          <a
+            href="https://github.com/HendrickSamuel"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaGithubSquare aria-hidden="true" className={styles.icon} />
             <span className="sr-only">Github</span>
           </a>

@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
+import { FooterSection } from '../components/footer-section/footer.section';
 import { IntroSection } from '../components/intro-section/intro.section';
 import Navbar from '../components/navbar/navbar';
 import { Separator } from '../components/separator/separator';
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
       <Navbar />
       <IntroSection />
       <Separator />
+      <FooterSection />
     </div>
   );
 };

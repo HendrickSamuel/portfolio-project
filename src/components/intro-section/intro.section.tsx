@@ -12,9 +12,21 @@ export const IntroSection: React.FC = () => {
 
       <p>
         I&#39;m a junior developper specializing in &nbsp;
-        <a href="https://nextjs.org/">NextJs</a>, &nbsp;
-        <a href="https://reactnative.dev/">React Native</a>, &nbsp;
-        <a href="https://dotnet.microsoft.com/en-us/apps/aspnet">Asp.Net</a>
+        <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
+          NextJs
+        </a>
+        , &nbsp;
+        <a href="https://reactnative.dev/" target="_blank" rel="noreferrer">
+          React Native
+        </a>
+        , &nbsp;
+        <a
+          href="https://dotnet.microsoft.com/en-us/apps/aspnet"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Asp.Net
+        </a>
         &nbsp;and SQL.
       </p>
 
