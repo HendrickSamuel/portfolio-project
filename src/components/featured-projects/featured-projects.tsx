@@ -72,6 +72,7 @@ export const FeaturedProjects: React.FC = () => {
             <a
               href="https://www.instagram.com/samuel_hendrick/"
               target="_blank"
+              rel="noreferrer"
             >
               Instagram
             </a>{' '}
