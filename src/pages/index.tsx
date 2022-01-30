@@ -2,6 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 import { ContactSection } from '../components/contact-section/contact.section';
+import { FeaturedProjects } from '../components/featured-projects/featured-projects';
 import { FooterSection } from '../components/footer-section/footer.section';
 import { IntroSection } from '../components/intro-section/intro.section';
 import Navbar from '../components/navbar/navbar';
@@ -17,6 +18,8 @@ const Home: NextPage = () => {
       </Head>
       <Navbar />
       <IntroSection />
+      <Separator />
+      <FeaturedProjects />
       <Separator />
       <ContactSection />
       <Separator />
