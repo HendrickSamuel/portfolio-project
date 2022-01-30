@@ -1,0 +1,16 @@
+.contact {
+  background-color: var(--blue);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.contact > * {
+  max-width: calc(var(--max-width) / 2);
+}
+
+.contact:last-child {
+  padding-top: 3rem;
+}
