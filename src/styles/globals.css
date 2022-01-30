@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap');
+
+:root {
+  --red: #d90416;
+  --dark-blue: #020540;
+  --blue: #32508c;
+  --light-blue: #048abf;
+  --white: #f2f2f2;
+
+  --font-size: 1.3rem;
+
+  --max-width: 1280px;
+
+  --sans: 'Oxygen', sans-serif;
+  --mono: 'Oxygen Mono', monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 5rem;
+}
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: var(--sans);
+  background-color: var(--dark-blue);
+  color: var(--white);
+  font-size: var(--font-size);
+}
+
+.sr-only {
+  display: none;
+}
