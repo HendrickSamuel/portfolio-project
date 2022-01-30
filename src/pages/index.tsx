@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         />
         <meta name="og:title" content="Hendrick Samuel" />
         <meta property="og:image" content="/images/20220129-IMG_3345.jpg" />
-        <link rel="icon" href="/favicon.ico" />$
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
       <IntroSection />
