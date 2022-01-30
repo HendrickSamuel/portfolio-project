@@ -1,0 +1,30 @@
+.intro {
+  padding: 4rem 1rem 10rem 1rem;
+}
+
+.intro p {
+  font-style: 1rem;
+  line-height: 1.5;
+}
+
+.intro .name {
+  font-family: var(--mono);
+}
+
+.intro .name span {
+  display: block;
+  font-family: var(--sans);
+  font-size: 4rem;
+  color: var(--orange);
+}
+
+.intro h2 {
+  font-size: 4rem;
+}
+
+@media (min-width: 850px) {
+  .intro {
+    max-width: var(--max-width);
+    margin: 0 auto;
+  }
+}

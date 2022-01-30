@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap');
 
 :root {
-  --red: #d90416;
+  /* --red: #d90416;
   --dark-blue: #020540;
   --blue: #32508c;
-  --light-blue: #048abf;
+  --light-blue: #048abf; */
   --white: #f2f2f2;
+
+  --orange: #ff8400;
+  --hot-pink: #fc575d;
+  --purple: #ce4f8b;
+  --dark-purple: #875899;
+  --blue: #465682;
+  --dark-blue: #2f4858;
 
   --font-size: 1.3rem;
 
@@ -32,6 +39,20 @@ body {
   background-color: var(--dark-blue);
   color: var(--white);
   font-size: var(--font-size);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  color: var(--hot-pink);
+}
+a:hover {
+  color: var(--orange);
+  text-decoration: none;
 }
 
 .sr-only {

@@ -24,7 +24,7 @@
 
 .navbar a:hover,
 .navbar a:hover .main_icon {
-  color: var(--light-blue);
+  color: var(--orange);
 }
 
 .navbar li:first-child {
@@ -42,7 +42,7 @@
   display: block;
   font-size: 120%;
   margin-right: 0.5rem;
-  color: var(--red);
+  color: var(--purple);
 }
 
 .icon {

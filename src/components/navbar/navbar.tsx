@@ -4,7 +4,7 @@ import Head from 'next/head';
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 import { BiAtom } from 'react-icons/bi';
 
-function Navbar() {
+export const Navbar: React.FC = () => {
   return (
     <nav className={styles.navbar}>
       <ul>
@@ -42,6 +42,6 @@ function Navbar() {
       </ul>
     </nav>
   );
-}
+};
 
 export default Navbar;
