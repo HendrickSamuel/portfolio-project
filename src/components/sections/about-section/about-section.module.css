@@ -9,8 +9,16 @@
   justify-content: center;
 }
 
+.about_section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.about_section h3 {
+  color: var(--hot-pink);
+}
+
 .about_section .image {
-  width: 50%;
   align-self: center;
 }
 
@@ -31,6 +39,12 @@
   font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 1rem;
+}
+
+@media (min-width: 500px) {
+  .about_section .image {
+    width: 50%;
+  }
 }
 
 @media (min-width: 850px) {

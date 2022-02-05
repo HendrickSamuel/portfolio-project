@@ -10,16 +10,18 @@ export const AboutSection: React.FC = () => {
           <div className={style.about}>
             <div>
               <p>
-                I am a 23 year old creative person trying to fullfill my dreams.
+                <h3>Who am I ?</h3>I am a 23 year old creative person trying to
+                fullfill my dreams. <br />I love learning every single day about
+                programming, photography, sewing, people and more !
               </p>
               <p>
-                I love learning every single day about programming, photography,
-                sewing, people and more ! I dream about becoming a mentor to
-                younger creative minds and help them through my personnal
-                experiences for them to feel comfortable in what they are doing.
+                <h3>Who do I want to become ?</h3> I dream about becoming a
+                mentor to younger creative minds and help them through my
+                personnal experiences for them to feel comfortable in what they
+                are doing.
               </p>
               <p>
-                <h3>Passions</h3>
+                <h3>What are my passions ?</h3>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
                 accusamus reprehenderit nobis est doloremque modi, at laboriosam
                 eligendi magni minima, eveniet facilis! Cum sequi inventore
