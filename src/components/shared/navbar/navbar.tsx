@@ -25,15 +25,8 @@ export const Navbar: React.FC = () => {
           </li>
           <li>
             <Link href="/">
-              <a className={router.asPath === '/' ? styles.active : ''}>Home</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/#projects">
-              <a
-                className={router.asPath === '/#projects' ? styles.active : ''}
-              >
-                Projects
+              <a className={router.asPath === '/' ? styles.active : ''}>
+                Introduction
               </a>
             </Link>
           </li>

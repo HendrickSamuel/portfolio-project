@@ -1,11 +1,13 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import { ContactSection } from '../components/contact-section/contact.section';
-import { FeaturedProjects } from '../components/featured-projects/featured-projects';
-import { FooterSection } from '../components/footer-section/footer.section';
-import { IntroSection } from '../components/intro-section/intro.section';
-import Navbar from '../components/navbar/navbar';
-import { Separator } from '../components/separator/separator';
+import { FooterSection } from '../components/shared/footer-section/footer.section';
+import {
+  IntroSection,
+  FeaturedProjects,
+  ContactSection,
+} from '../components/sections';
+import { Navbar } from '../components/shared/navbar/navbar';
+import { Separator } from '../components/shared/separator/separator';
 
 const Home: NextPage = () => {
   return (

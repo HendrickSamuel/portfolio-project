@@ -1,21 +1,22 @@
 import { NextPage } from 'next';
 import Head from 'next/head';
-import Navbar from '../../components/navbar/navbar';
+import { AboutSection } from '../../components/sections/about-section/about-section';
+import Navbar from '../../components/shared/navbar/navbar';
+import { Separator } from '../../components/shared/separator/separator';
 
 const Home: NextPage = () => {
   return (
     <div>
       <Head>
         <title>Hendrick Samuel</title>
-        <meta
-          name="og:description"
-          content="portfolio created with nextjs and css"
-        />
+        <meta name="og:description" content="More about me" />
         <meta name="og:title" content="Hendrick Samuel" />
-        <meta property="og:image" content="/images/20220129-IMG_3345.jpg" />
+        <meta property="og:image" content="/images/DSCF8500-4-1.jpg" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
+      <AboutSection />
+      <Separator />
     </div>
   );
 };

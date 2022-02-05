@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '../elements/button/button';
+import { Button } from '../../elements/button/button';
 import styles from './contact.section.module.css';
 
 export const ContactSection: React.FC = () => {
