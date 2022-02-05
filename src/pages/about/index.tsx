@@ -1,6 +1,7 @@
 import { NextPage } from 'next';
 import Head from 'next/head';
 import { AboutSection } from '../../components/sections/about-section/about-section';
+import { SkillsSection } from '../../components/sections/skills-section/skills-section';
 import Navbar from '../../components/shared/navbar/navbar';
 import { Separator } from '../../components/shared/separator/separator';
 
@@ -16,6 +17,8 @@ const Home: NextPage = () => {
       </Head>
       <Navbar />
       <AboutSection />
+      <Separator />
+      <SkillsSection />
       <Separator />
     </div>
   );

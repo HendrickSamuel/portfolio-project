@@ -1,0 +1,14 @@
+.wrapper {
+  padding: 4rem 1rem;
+  background-color: var(--blue);
+}
+
+.skills_section {
+}
+
+@media (min-width: 850px) {
+  .skills_section {
+    max-width: var(--max-width);
+    margin: 0 auto;
+  }
+}
