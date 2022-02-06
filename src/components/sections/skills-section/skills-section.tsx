@@ -39,10 +39,12 @@ export const SkillsSection: React.FC = () => {
           </li>
           <li>
             <span>
-              <h3>Lorem, ipsum.</h3>
+              <h3>Confidence</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Cupiditate, assumenda harum.
+                Working with the right people and the right mindset allows
+                confidence to kick in and to outperform myself. Yet I stay
+                humble and keep in mind there is always more to learn and
+                smarter people out there.
               </p>
             </span>
           </li>
