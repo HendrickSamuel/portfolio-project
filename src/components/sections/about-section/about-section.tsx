@@ -20,14 +20,6 @@ export const AboutSection: React.FC = () => {
                 personnal experiences for them to feel comfortable in what they
                 are doing.
               </p>
-              <p>
-                <h3>What are my passions ?</h3>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                accusamus reprehenderit nobis est doloremque modi, at laboriosam
-                eligendi magni minima, eveniet facilis! Cum sequi inventore
-                necessitatibus eligendi aliquid corporis eos, reiciendis
-                voluptatibus, ducimus officiis quis?
-              </p>
             </div>
           </div>
           <div className={style.image}>

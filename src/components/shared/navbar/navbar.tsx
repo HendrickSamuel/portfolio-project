@@ -53,11 +53,11 @@ export const Navbar: React.FC = () => {
               <span className="sr-only">Github</span>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="" className={styles.button}>
               Resume
             </a>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </div>
